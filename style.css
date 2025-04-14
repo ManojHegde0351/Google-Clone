@@ -173,6 +173,7 @@ input::placeholder {
 a {
     text-decoration: none;
     color: #faf9f9;
+}
 @media (max-width: 992px) {
   .logo img {
     width: 250px;
