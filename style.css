@@ -235,7 +235,7 @@ a {
     font-size: 14px;
   }
   .search-box {
-    width: 90%;
+    width: 100%;
     padding: 4px 6px;
     flex-wrap: nowrap;
   }
