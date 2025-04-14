@@ -218,23 +218,23 @@ a {
 
     .search-box {
         flex-direction: row;
-        width: 95%;
+        width: 90%;
         padding: 6px 10px;
         flex-wrap: nowrap;
         justify-content: space-between;
     }
 
     .search-box input {
-        width: 65%;
+        width: 45%;
         margin: 0 10px;
         font-size: 14px;
     }
 
     .search-box > img,
     .search-icons img {
-        width: 14px;
-        height: 14px;
-        margin: 0 6px;
+        width: 20px;
+        height: 20px;
+        margin: 0 2px;
     }
 
     .buttons {
