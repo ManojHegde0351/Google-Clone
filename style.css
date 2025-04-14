@@ -235,14 +235,14 @@ a {
     font-size: 14px;
   }
   .search-box {
-    width: 150%;
+    width: 90%;
     padding: 4px 6px;
     flex-wrap: nowrap;
   }
 
   .search-box input {
     font-size: 14px;
-    width: 45%;
+    width: 75%;
     margin-left: 6px;
   }
 
