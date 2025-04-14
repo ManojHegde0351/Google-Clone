@@ -203,7 +203,7 @@ a {
         display: none;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     nav {
         flex-direction: row;
         align-items: center;
@@ -264,7 +264,7 @@ a {
     }
 
     .location-container {
-        width:100%;
+        width:125%;
         font-size: 14px;
         text-align: start;
     }
