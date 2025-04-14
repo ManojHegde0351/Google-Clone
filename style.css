@@ -111,14 +111,6 @@ input::placeholder {
     margin-left: 10px;
     cursor: pointer;
 }
-
-.buttons {
-    
-    display: flex;
-    justify content
-    margin: 10px 0;
-}
-
 .buttons button {
     background-color: #5b5e68;
     color: #f9f9f9;
