@@ -232,8 +232,8 @@ a {
 
     .search-box > img,
     .search-icons img {
-        width: 24px;
-        height: 24px;
+        width: 14px;
+        height: 14px;
         margin: 0 6px;
     }
 
@@ -258,7 +258,7 @@ a {
 
     .footer-left,
     .footer-right {
-        flex-direction: column;
+        flex-direction: row;
         gap: 8px;
     }
 
