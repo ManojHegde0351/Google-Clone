@@ -13,7 +13,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
 form {
     display: flex;
     flex-direction: column;
@@ -115,6 +115,10 @@ input::placeholder {
     height: 30px;
     margin-left: 10px;
     cursor: pointer;
+}
+    .buttons {
+    display: flex;
+    margin-top: 20px;
 }
 .buttons button {
     background-color: #5b5e68;
