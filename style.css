@@ -267,7 +267,7 @@ a {
   .footer-right,
   .location-container {
     flex-direction: row;
-    text-align: center;
+    text-align: start;
     align-items: start;
     gap: 10px;
   }
