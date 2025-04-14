@@ -170,6 +170,96 @@ input::placeholder {
     display: flex;
     gap: 15px;
 }
+@media (max-width: 992px) {
+    .search-box {
+        width: 90%;
+        padding: 8px;
+    }
+
+    .search-box input {
+        font-size: 14px;
+    }
+
+    .buttons button {
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+
+    .logo img {
+        width: 280px;
+    }
+
+    .right-nav img,
+    .search-icons img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .profile {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .left-nav,
+    .right-nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .search-box {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons button {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .languages {
+        font-size: 13px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-right {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .location-container {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
 
 a {
     text-decoration: none;
