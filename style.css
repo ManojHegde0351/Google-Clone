@@ -13,20 +13,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 0;
 }
-
 .main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 100%;
-    padding: 0 20px;
 }
-
-
 header {
     padding: 10px 10px;
 }
@@ -119,7 +113,9 @@ input::placeholder {
 }
 
 .buttons {
+    
     display: flex;
+    justify content
     margin: 10px 0;
 }
 
