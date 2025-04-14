@@ -262,16 +262,23 @@ a {
     max-width: 280px;
     font-size: 14px;
   }
-  .footer-container,
-  .footer-left,
-  .footer-right,
-  .location-container {
-    flex-direction: row;
-    text-align: start;
-    align-items: start;
-    gap: 10px;
-  }
+   .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
 
+    .footer-left,
+    .footer-right {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .location-container {
+        font-size: 14px;
+        text-align: start;
+    }
   .languages {
     padding: 0 10px;
     font-size: 13px;
