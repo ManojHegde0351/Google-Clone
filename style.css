@@ -218,8 +218,8 @@ a {
 
   .left-nav,
   .right-nav {
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: flex-start ;
     padding: 0 10px;
   }
 
