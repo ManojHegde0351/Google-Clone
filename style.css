@@ -170,6 +170,9 @@ input::placeholder {
     display: flex;
     gap: 15px;
 }
+a {
+    text-decoration: none;
+    color: #faf9f9;
 @media (max-width: 992px) {
   .logo img {
     width: 250px;
@@ -228,7 +231,7 @@ input::placeholder {
   }
 
   .search-box {
-    width: 95%;
+    width: 80%;
     padding: 6px;
   }
 
@@ -263,7 +266,7 @@ input::placeholder {
   }
 
   .location-container {
-    text-align: center;
+    text-align: start;
     font-size: 14px;
   }
 }
