@@ -14,17 +14,17 @@ main {
     align-items: center;
     justify-content: center;
 }
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header {
     padding: 10px 10px;
